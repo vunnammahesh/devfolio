@@ -1,3 +1,4 @@
+import profilepic from "../assets/profile.jpg"
 export default function Hero() {
   return (
     <section
@@ -36,7 +37,7 @@ export default function Hero() {
       {/* Image / Illustration */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0 flex justify-center">
         <img
-          src="/profile.svg" // Replace with your image path!
+          src={profilepic} // Replace with your image path!
           alt="Mahesh Vunnam"
           className="w-64 h-64 object-cover rounded-full shadow-lg"
         />
