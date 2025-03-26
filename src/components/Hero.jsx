@@ -1,4 +1,5 @@
 import profilepic from "../assets/profile.jpg"
+import heroData from "../data/hero.json"
 export default function Hero() {
   return (
     <section
@@ -8,13 +9,13 @@ export default function Hero() {
       {/* Text Content */}
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-          Hey there, I'm Mahesh Vunnam 👋
+          Hey there, I'm {heroData.name} 👋
         </h1>
         <h2 className="text-2xl md:text-3xl text-indigo-600 dark:text-indigo-400 font-semibold mb-6">
-          Frontend Developer 🚀
+          {heroData.role} 🚀
         </h2>
         <p className="text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-          I build responsive web applications using React and TailwindCSS. Passionate about crafting intuitive user experiences and writing clean, scalable code.
+          {heroData.description}
         </p>
 
         {/* Call to Action Buttons */}
@@ -37,8 +38,8 @@ export default function Hero() {
       {/* Image / Illustration */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0 flex justify-center">
         <img
-          src={profilepic} // Replace with your image path!
-          alt="Mahesh Vunnam"
+          src={profilepic}
+          alt={heroData.name}
           className="w-64 h-64 object-cover rounded-full shadow-lg"
         />
       </div>

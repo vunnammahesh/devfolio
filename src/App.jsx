@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 function App() {
   return (
     <div className="App font-sans bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
@@ -7,9 +8,7 @@ function App() {
 
       <Hero />
 
-      <section id="about" className="h-screen flex justify-center items-center">
-        <h1 className="text-5xl">About Section</h1>
-      </section>
+      <About />
 
       <section id="skills" className="h-screen flex justify-center items-center">
         <h1 className="text-5xl">Skills Section</h1>

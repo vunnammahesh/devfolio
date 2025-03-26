@@ -1,0 +1,26 @@
+{
+    "bio": "I'm a Frontend Developer with experience in React, Tailwind CSS, and building scalable web applications.",
+    "workExperience": [
+      {
+        "company": "Infosys",
+        "role": "Senior Systems Engineer",
+        "duration": "2022 - Present",
+        "description": "Working on React-based dashboards for automated code generation in banking applications."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech in Computer Science",
+        "college": "JNTUA",
+        "year": "2018 - 2022",
+        "percentage": "80"
+      },
+      {
+        "degree": "Intermediate",
+        "college": "Mother Theresa Junior College",
+        "year": "2016 - 2018",
+        "percentage": "94"
+      }
+    ]
+  }
+  
