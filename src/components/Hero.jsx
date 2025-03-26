@@ -1,4 +1,3 @@
-import profilepic from "../assets/profile.jpg"
 import heroData from "../data/hero.json"
 export default function Hero() {
   return (
@@ -38,7 +37,7 @@ export default function Hero() {
       {/* Image / Illustration */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0 flex justify-center">
         <img
-          src={profilepic}
+          src={heroData.profile}
           alt={heroData.name}
           className="w-64 h-64 object-cover rounded-full shadow-lg"
         />
