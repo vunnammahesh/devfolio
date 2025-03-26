@@ -1,0 +1,29 @@
+{
+    "projects": [
+      {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio showcasing my projects, experience, and skills as a Frontend Developer.",
+        "image": "/portfolio.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "github": "https://github.com/vunnammahesh/vunnammahesh.github.io/tree/main/portfolio",
+        "liveDemo": "https://vunnammahesh.github.io/portfolio"
+      },
+      {
+        "title": "Pig Game",
+        "description": "A fun two-player dice game! Roll the dice, hold your score, or risk it all to reach 20 points first!",
+        "image": "/piggame.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "github": "https://github.com/vunnammahesh/vunnammahesh.github.io/tree/main/pig-game",
+        "liveDemo": "https://vunnammahesh.github.io/pig-game"
+      },
+      {
+        "title": "Guess My Number",
+        "description": "Guess a random number between 1 to 20. Get hints if your guess is too high or too low!",
+        "image": "/guessmynumber.png",
+        "techStack": ["HTML", "CSS", "JavaScript"],
+        "github": "https://github.com/vunnammahesh/vunnammahesh.github.io/tree/main/Guess-my-number",
+        "liveDemo": "https://vunnammahesh.github.io/Guess-my-number"
+      }
+    ]
+  }
+  
