@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import data from "..data/hero.json"
+import data from '../data/hero.json'
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
