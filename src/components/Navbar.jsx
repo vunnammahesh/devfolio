@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import data from "..data/hero.json"
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-900 dark:text-white">
-          Mahesh Vunnam
+          {data.name}
         </div>
 
         {/* Desktop Links */}
