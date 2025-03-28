@@ -21,9 +21,16 @@ export default function Hero() {
         <div className="flex justify-center md:justify-start space-x-4">
           <a
             href="#projects"
-            className="px-6 py-3 bg-indigo-600 text-white rounded-full font-medium hover:bg-indigo-500 transition-colors duration-300"
+            className="px-6 py-3 border border-indigo-600 text-indigo-600 dark:text-indigo-400 rounded-full font-medium hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors duration-300"
           >
             View Projects
+          </a>
+          <a
+            href="/resume.pdf"
+            download="Mahesh_Vunnam_Resume.pdf"
+            className="px-6 py-3 bg-indigo-600 text-white rounded-full font-medium hover:bg-indigo-500 transition-colors duration-300"
+          >
+          📄 Download Resume
           </a>
           <a
             href="#contact"

@@ -14,7 +14,8 @@ export default function About() {
         </p>
 
         {/* Work Experience Section */}
-        <div className="mb-12">
+        {aboutData.workExperience && aboutData.workExperience.length > 0 && (
+          <div className="mb-12">
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
             <FaBriefcase className="mr-3 text-indigo-500" /> Work Experience
           </h3>
@@ -29,9 +30,12 @@ export default function About() {
             ))}
           </div>
         </div>
+        )}
+        
 
         {/* Education Section */}
-        <div>
+        {aboutData.education && aboutData.education.length > 0 && (
+          <div>
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
             <FaGraduationCap className="mr-3 text-green-500" /> Education
           </h3>
@@ -50,6 +54,8 @@ export default function About() {
             ))}
           </div>
         </div>
+        )}
+        
       </div>
     </section>
   );
